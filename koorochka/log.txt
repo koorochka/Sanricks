@@ -4,4 +4,3 @@ Module:
 test
     include_once < require < require_once < require
 	/home/bitrix/www/bitrix/modules/main/include/epilog_before.php:93
-	/home/bitrix/www/bitrix/modules/main/include/epilog.php:2
