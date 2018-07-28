@@ -5,5 +5,3 @@ test
     include_once < require < require_once < require
 	/home/bitrix/www/bitrix/modules/main/include/epilog_before.php:93
 	/home/bitrix/www/bitrix/modules/main/include/epilog.php:2
-	/home/bitrix/www/bitrix/footer.php:4
-	/home/bitrix/www/index.php:385
