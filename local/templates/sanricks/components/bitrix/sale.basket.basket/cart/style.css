@@ -1,0 +1,29 @@
+.color-orange font.errortext {
+	color: #ff5000 !important;
+}
+/**
+  * Adaptive
+  */
+@media (max-width: 739px) {
+	#basket_items_list .moblile-cell{
+		margin-bottom: 24px;
+	}
+	#basket_items_list table.style_row_td tbody td,
+	#basket_items_list .table.style_row_td tbody td {
+		background: #fffaed;
+		border: 0 none;
+		vertical-align: bottom;
+		padding-bottom: 15px;
+	}
+	#basket_items_list table{
+		border-collapse:separate;
+		border-spacing: 0 15px;
+	}
+	#basket_items_list tbody tr{
+		border-color-top: #3BC915;
+	}
+	#basket_items_list .product__item--price{
+		float: none;
+		display: block;
+	}
+}
