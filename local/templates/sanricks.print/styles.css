@@ -1,0 +1,10 @@
+html,body{height:100%;}
+body {
+    background: #ffffff;
+    color: #666666;
+    font-family: "FranklinGothic-Book";
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0;
+}

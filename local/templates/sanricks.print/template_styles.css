@@ -1,0 +1,39 @@
+#sanricks{
+    background-image: url("images/taekwondo-tree.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+#header{
+    border-bottom: #17a2b8 8px solid;
+    padding-bottom: 11px;
+    padding-top: 13px;
+}
+
+#region-worktime {
+    background-image: url(/local/components/koorochka/sanricks.user.region/templates/.default/images/icon.phone.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-left: 32px;
+    height: 34px;
+    line-height: 34px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+#region-adres{
+    background-image: url("images/adres.gif");
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-left: 34px;
+    height: 34px;
+    margin-bottom: 5px;
+    margin-left: 13px;
+    background-size: 24px 32px;
+}
+
+#footer{
+    border-top: #17a2b8 1px solid;
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
