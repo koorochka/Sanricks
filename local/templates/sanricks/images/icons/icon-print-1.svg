@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="29px" height="23px" viewBox="0 0 29 23" enable-background="new 0 0 29 23" xml:space="preserve">
+<g>
+	<g>
+		<polyline fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="17.5,2 
+			17.5,7.5 24,7.5 		"/>
+		<path fill="none" stroke="#231F20" stroke-miterlimit="10" d="M3.5,12V2.508C3.5,1.641,6.337,0.5,7.229,0.5h10.326L24.5,6.895V12"
+			/>
+		<path fill="none" stroke="#231F20" stroke-miterlimit="10" d="M24.5,17v2.879c0,0.869-1.806,2.621-2.696,2.621H7.229
+			c-0.892,0-3.729-1.752-3.729-2.621V17"/>
+	</g>
+	<path fill="none" stroke="#231F20" stroke-miterlimit="10" d="M28.5,20.5h-4v-3.055l-21,0.042V20.5h-3V10.373
+		C0.5,9.255,0.517,9.5,1.664,9.5H3.5v3.202l21,0.043V9.5h2.702c1.147,0,1.298-0.245,1.298,0.873V20.5z"/>
+	<ellipse fill="none" stroke="#231F20" stroke-miterlimit="10" cx="26.942" cy="10.839" rx="1.085" ry="1.058"/>
+</g>
+</svg>

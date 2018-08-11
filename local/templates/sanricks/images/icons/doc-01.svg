@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="10px" height="12px" viewBox="0 0 10 12" enable-background="new 0 0 10 12" xml:space="preserve">
+<g>
+	<g>
+		<polyline fill="none" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="6.5,1 
+			6.5,3.5 9,3.5 		"/>
+		<path fill="none" stroke="#666666" stroke-miterlimit="10" d="M9.5,10.228c0,0.446-0.365,1.272-0.811,1.272H1.394
+			c-0.446,0-0.894-0.826-0.894-1.272V1.311C0.5,0.865,0.948,0.5,1.394,0.5h5.169L9.5,3.563V10.228z"/>
+	</g>
+	<g>
+		<polyline fill="none" stroke="#231F20" points="6.5,1 6.5,3.5 9,3.5 		"/>
+		<path fill="none" stroke="#231F20" d="M9.5,10.228c0,0.446-0.365,1.272-0.811,1.272H1.394c-0.446,0-0.894-0.826-0.894-1.272V1.311
+			C0.5,0.865,0.948,0.5,1.394,0.5h5.169L9.5,3.563V10.228z"/>
+	</g>
+</g>
+</svg>
