@@ -1,0 +1,215 @@
+#bx_filter_title{
+	color: #999;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#bx_filter_title.adaptive{
+	cursor: pointer;
+	background-image: url(images/arrow.png);
+	background-repeat: no-repeat;
+	background-position: top 50% right 0;
+}
+.bx_filter_parameters_box .bx_filter_block{
+	display: none;
+}
+.bx_filter_parameters_box.active .bx_filter_block{
+	display: block;
+}
+.bx_filter_parameters_title {
+	display: block;
+	color: #ff5000;
+	cursor: pointer;
+	font-family: "FranklinGothic-Medium";
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 4px;
+	text-transform: uppercase;
+}
+
+.bx_filter_parameters_box.active .icon-arrow {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg); }
+
+/**
+  * price
+  */
+
+/*Track*/
+.bx_filter .bx_ui_slider_track{
+	position:relative;
+	height:7px;
+	margin:25px 10px;
+	border:1px solid #8da3ad;
+	background:#a1c0c8;
+	background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ExYzBjOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiM2Q1ZGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#a1c0c8), color-stop(100%,#b3d5df));
+	background:-webkit-linear-gradient(top, #a1c0c8 0%,#b3d5df 100%);
+	background:   -moz-linear-gradient(top, #a1c0c8 0%,#b3d5df 100%);
+	background:    -ms-linear-gradient(top, #a1c0c8 0%,#b3d5df 100%);
+	background:     -o-linear-gradient(top, #a1c0c8 0%,#b3d5df 100%);
+	background:        linear-gradient(top bottom, #a1c0c8 0%,#b3d5df 100%);
+	box-shadow:0 1px 0 0 rgba(255,255,255,.35);
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1c0c8', endColorstr='#b3d5df',GradientType=0 );
+}
+.bx_filter .disabled{display: none !important;}
+.bx_filter .bx_ui_slider_part{
+	position:absolute;
+	top:-6px;
+	width:1px;
+	height:17px;
+	background:#a2bfc7;
+}
+.bx_filter .bx_ui_slider_part.p1{left:-1px;}
+.bx_filter .bx_ui_slider_part.p2{left:25%;}
+.bx_filter .bx_ui_slider_part.p3{left:50%;}
+.bx_filter .bx_ui_slider_part.p4{left:75%;}
+.bx_filter .bx_ui_slider_part.p5{right:-1px;}
+.bx_filter .bx_ui_slider_part span{
+	font-size:11px;
+	font-weight: bold;
+	position:absolute;
+	top:-16px;
+	left:50%;
+	display:block;
+	width:100px;
+	margin-left:-50px;
+	text-align:center;
+	color:#000;
+}
+.bx_filter .bx_ui_slider_part.p2 span,
+.bx_filter .bx_ui_slider_part.p3 span,
+.bx_filter .bx_ui_slider_part.p4 span{color:#6b8086;}
+
+.bx_filter .bx_ui_slider_range,
+.bx_filter .bx_ui_slider_pricebar,
+.bx_filter .bx_ui_slider_pricebar_VD,
+.bx_filter .bx_ui_slider_pricebar_VN,
+.bx_filter .bx_ui_slider_pricebar_V{
+	position:absolute;
+	top:-1px;
+	bottom:-1px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.bx_filter .bx_ui_slider_range{
+	z-index:50;
+}
+.bx_filter .bx_ui_slider_pricebar{
+	z-index:100;
+}
+
+.bx_filter .bx_ui_slider_pricebar_VD{
+	z-index:60;
+	border-top:   1px solid #74868e;
+	border-bottom:1px solid #74868e;
+	background:#849da4;
+	background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg0OWRhNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5M2FmYjciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#849da4), color-stop(100%,#93afb7));
+	background:-webkit-linear-gradient(top, #849da4 0%,#93afb7 100%);
+	background:   -moz-linear-gradient(top, #849da4 0%,#93afb7 100%);
+	background:    -ms-linear-gradient(top, #849da4 0%,#93afb7 100%);
+	background:     -o-linear-gradient(top, #849da4 0%,#93afb7 100%);
+	background:        linear-gradient(top bottom, #849da4 0%,#93afb7 100%);
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#849da4', endColorstr='#93afb7',GradientType=0 );
+}
+.bx_filter .bx_ui_slider_pricebar_VN{
+	z-index:70;
+	border:1px solid #8da3ad;
+	background:#fffaed;
+}
+.bx_filter .bx_ui_slider_pricebar_V{
+	z-index:80;
+	top:-1px;
+	bottom:-1px;
+	/*	border-right:1px solid #1888cc;
+		border-left: 1px solid #1888cc;*/
+	background-color: #ff5000;
+}
+
+
+
+.bx_filter .bx_ui_slider_handle{
+	position:absolute;
+	top:100%;
+	width:22px;
+	height:22px;
+}
+.bx_filter .bx_ui_slider_handle:hover{
+	-webkit-cursor:grab;
+	-ms-cursor:grab;
+	-o-cursor:grab;
+	cursor:grab;
+}
+.bx_filter .bx_ui_slider_handle:active{
+	-webkit-cursor:grabbing;
+	-ms-cursor:grabbing;
+	-o-cursor:grabbing;
+	cursor:grabbing;
+}
+.bx_filter .bx_ui_slider_handle.left{
+	left:0;
+	margin-left:-21px;
+	background:url(images/handle_left.png) no-repeat right top;
+}
+.bx_filter .bx_ui_slider_handle.right{
+	right:0;
+	margin-right:-21px;
+	background:url(images/handle_right.png) no-repeat left top;
+}
+
+/*
+* 	Result Popup
+*
+*/
+#modef {
+	font-size: 13px;
+	font-weight: normal;
+	position: absolute;
+	z-index: 915;
+	display: none;
+	line-height: normal;
+	margin-top: -7px;
+	margin-left: 10px;
+	padding: 10px;
+	white-space: nowrap;
+	min-height: 37px;
+	right:0;
+	top:0;
+	background-color: #fff;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+/**
+  * checkbox
+  */
+
+.checkbox-control {
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	vertical-align: top;
+	background: #fff;
+	border: 2px solid #999;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+
+.bx_filter_input_checkbox input:checked + span.checkbox-control {
+	background-image: url(images/icon.checkbox.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #fd4f00;
+	border-color: #fd4f00;
+}
+
+.bx_filter_input_checkbox input:checked + span.checkbox-control:after {
+	border-color: #0b66c3;
+}
